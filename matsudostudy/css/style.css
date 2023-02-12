@@ -1,0 +1,466 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+#top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: block;
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+    border: 4px solid #666;
+    color: #666;
+    opacity: 50%;
+}
+
+#top:hover{
+  opacity: 100%;
+}
+
+@media print{
+  #terashima header{
+    background-image: url(../images/terashima-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 300% auto;
+  }
+
+  #oshima header{
+    background-image: url(../images/oshimatop02.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 300% auto;
+  }
+}
+  
+
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+dl{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+img{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100% auto;
+  height: 150px;
+  background-color: #00bfff;
+}
+
+header .logo{
+  float:left;
+  margin: 20px 40px;
+  background-color: #cccccc;
+  background: rgba(255,255,255,0.5);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.logo:hover{
+  opacity: 0.8;
+}
+
+.logo h1{
+  font-family: serif;
+}
+
+.global-nav{
+  float:right;
+  margin: 20px 10px;
+}
+
+.global-nav li{
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 3;
+  float: left;
+  margin: 0 20px;
+  font-family: serif;
+}
+
+.global-nav li a:hover{
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #708090;
+}
+
+footer small{
+  float: left;
+  margin: 0 60px;
+  line-height: 5;
+  font-size: 16px;
+  
+}
+
+footer .global-nav li{
+  font-size: 20px;
+  font-family: serif;
+}
+
+.clearfix:after{
+  content:"";
+  clear: both;
+  display: block;
+}
+
+
+.main-wrapper{
+  width: 980px;
+  color: black;
+  font-family: serif;
+  background-color: #dcdcdc;
+  float: left;
+}
+
+#index header{
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* .introduction{
+  font-size: 80px;
+  font-family: sans-serif;
+} */
+
+.main-wrapper h1{
+  margin: 0 20px;
+  padding-top: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+
+h2{
+  margin: 0 20px;
+  padding-top: 20px;
+}
+
+h3{
+  margin: 0 20px;
+  padding-top: 10px;
+}
+
+h4{
+  margin: 0 20px;
+  padding-top: 10px;
+}
+  
+.main-wrapper li{
+  margin: 0 40px;
+  padding-top: 10px;
+}
+
+.main-wrapper p{
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.main-wrapper a{
+  color: black;
+}
+
+.kimono{
+  margin: 20px 20px;
+}
+
+.jewery{
+  margin: 20px 20px;
+}
+
+.icon:before{
+  content:"";
+  border-right: 7px solid #ff69b4;
+}
+
+
+
+.sidebar{
+  width: 200px; 
+  color: black;
+  float: right;
+  position: sticky;
+  top: 150px;
+}
+
+.sidebar h2{
+  margin: 0 10px 0 0;
+  font-family: serif;
+}
+
+.sidebar li{
+  color: black;
+  font-size: 18px;
+  font-family: serif;
+  line-height: 2;
+  margin: 0 10px 0 0;
+}
+
+.sidebar li a{
+  color: black; 
+}
+
+.sidebar li a:hover{
+  border-bottom: 1px solid #cccccc;
+} 
+
+.sidebar li a:visited{
+  color: #cccccc;
+}
+
+
+#terashima header{
+  background-image: url(../images/terashima-1.jpg);
+  background-repeat: repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.terashima-about{
+  width: 1000px;
+}
+
+.terashima-profile{
+  width: 660px;
+  float:left;
+}
+
+.terashima-img{
+  float:right;
+}
+
+.terashima-img img{
+  width: 300px;
+}
+
+.nitten-history{
+  width: 700px;
+}
+
+.rank{
+  margin: 20px 0;
+}
+
+.rank dt{
+  width: 120px;
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.rank dd{
+  width: 600px;
+  clear:both;
+}
+
+.rank h4{
+  margin: 0 20px;
+  padding: 0;
+}
+
+.nitten-history{
+  width: 800px;
+  float: left;
+}
+
+.nitten-img img{
+  float: right;
+  height: 190px;
+  margin-right: 40px;
+}
+
+.terashima-award{
+  padding-bottom: 20px;
+}
+
+.terashima-award table{
+  margin: 0 20px;
+  border-collapse: collapse;
+}
+
+.terashima-award th{
+  padding: 12px 10px;
+  width: 120px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #2f4f4f;
+}
+
+.terashima-award td{
+  width: 480px;
+  padding: 10px 0 10px 40px;
+  background-color: #ffffff;
+  border: 1px solid #2f4f4f;
+}
+
+
+
+#oshima header{
+  background-image: url(../images/oshimatop02.webp);
+  background-repeat: repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.oshima-navi{
+  float: left;
+}
+.oshima-navi li{
+  line-height: 4;
+}
+
+.oshima-navi li:hover{
+line-height: 3;
+  background-image: linear-gradient(transparent 60%, lightblue 0%);
+  display: inline-block;
+}
+
+.oshima-pv img{
+  width: 400px;
+  height: 350px;
+  margin-left: 250px;
+}
+
+.oshima-supplement li{
+  list-style-type: none;
+}
+
+.supplement li span{
+  font-weight: bold;
+}
+
+.oshima-dyeing{
+  width: 900px;
+  margin: 10px 0 10px 0;
+  
+}
+
+.mud-img{
+  margin: 0 30px 0 0;
+  float: left;
+}
+
+.mud-img img{
+  width: 300px;
+  height: 200px;
+  margin:10px 40px 0 40px;
+}
+
+.sharinbai-img{
+  margin: 10px 20px 0 0;
+}
+
+.sharin{
+  margin-top:10px;
+}
+
+.sharinbai-img img{
+  width: 300px;
+  margin:10px 0 0 20px;
+}
+
+.oshima-dyeing p span{
+  color: red;
+}
+
+.amami-img{
+  margin: 10px 30px 0 0;
+  float: left;
+}
+
+.amami-img img{
+  width: 300px;
+  margin:10px 40px 0 40px;
+}
+
+.kagoshima-img{
+  margin: 10px 20px 0 0;
+}
+
+.kagoshima-img img{
+  width: 300px;
+  height: 192px;
+  margin:10px 0 0 20px;
+}
+
+.type-description h3{
+  text-align: left;
+}
+
+table{
+  background-color: #ffffff;
+  margin: 10px 20px 10px 20px;
+  border-collapse: collapse;
+}
+
+th,td{
+  border: solid 1px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.flow-img img{
+  width: 700px;
+  height: 750px;
+  margin:0 0 0 20px;
+  padding:0;
+  vertical-align: middle;
+}
+
+.flow-count span{
+  color: red;
+  font-weight: bold;
+}
+
+.flow-count img{
+  width: 380px;
+  height: 250px;
+  margin: 0 10px 0 10px;
+}
+
+.hunori img{
+  width: 280px;
+  height: 150px;
+  margin: 5px 15px 0 20px;
+  float: left;
+}
+
+
+
